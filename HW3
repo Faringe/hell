@@ -1,0 +1,8 @@
+#Задание №3
+
+number = input('Введите число: ')
+a = int(number + number)
+b = int(number + number + number)
+answer = int(number) + a + b
+
+print(answer)

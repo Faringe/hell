@@ -1,0 +1,14 @@
+#Задание №5
+
+revenue = int(input('Введите выручку: '))
+outlay = int(input('Введите затраты: '))
+if revenue > outlay:
+    profitability = revenue-outlay
+    rent = profitability/revenue
+    print(f'Отличная работа. У вас есть {profitability} рентабельность')
+    worker = int(input('Сколько человек работает: '))
+    print(f'{profitability/worker} на одного работника')
+elif revenue == outlay:
+    print('Не плохо')
+else:
+    print('Удачи')

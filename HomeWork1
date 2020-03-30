@@ -1,0 +1,7 @@
+#Задание №1
+
+name = input('Введите свое имя: ')
+age = int(input('Введите ваш возраст: '))
+number = float(input('Введите любое число: '))
+
+print(f'Имя {name} Возраст {age} Число {number}')
